@@ -26,7 +26,7 @@
     margin: 0 auto;
     padding: 0 50px;
 }
-
+/* ADIL HASAN */
 #navbar__logo {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ce2828 35%, #8f1111 65%);
@@ -47,6 +47,7 @@
     transition: all 0.3s ease;
 }
 
+
 .fa-gem {
     margin-right: 0.5rem;
 }
@@ -62,6 +63,7 @@
     height: 80px;
 }
 
+/* top right links */
 .navbar__links {
     color: #ffff;
     display: flex;
@@ -78,6 +80,8 @@
     transition: all 0.3s ease;
 }
 
+
+/*Menu Bar */
 @media screen and (max-width: 960px) {
     .navbar__container {
         display: flex;
@@ -88,7 +92,7 @@
         max-width: 1300px;
         padding: 0;
     }
-
+    
     .navbar__menu {
         display: grid;
         grid-template-columns: auto;
@@ -96,7 +100,7 @@
         width: 100%;
         position: absolute;
         top: -1000px;
-        opacity: 0;
+        opacity: 0; 
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
@@ -162,6 +166,7 @@
 }
 
 /* Main Page CSS */
+
 .main {
     background-color: #b1b1b1;
 }
@@ -206,35 +211,8 @@
     line-height: 1.65em;
 }
 
-@media screen and (max-width: 960px) {
-    .main__container {
-        grid-template-columns: 1fr;
-        padding: 0 20px;
-    }
 
-    .main__content h1 {
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .main__content p1 {
-        font-size: 1rem;
-        text-align: center;
-        line-height: 1.5em;
-    }
-
-    .main_img--container {
-        display: flex;
-        justify-content: center;
-    }
-
-    #main__img {
-        width: 100%;
-        max-width: 400px;
-    }
-}
-
-/* Experience Page CSS */
+/* Experience page*/
 .experience {
     background-color: #b1b1b1;
 }
@@ -278,35 +256,9 @@
     -moz-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 960px) {
-    .experience__container {
-        grid-template-columns: 1fr;
-        padding: 0 20px;
-    }
 
-    .experience__content h1 {
-        font-size: 2rem;
-        text-align: center;
-    }
+/*Links Page*/
 
-    .experience__content p1 {
-        font-size: 1rem;
-        text-align: center;
-        line-height: 1.5em;
-    }
-
-    .experience__img--container {
-        display: flex;
-        justify-content: center;
-    }
-
-    #experience__img {
-        width: 100%;
-        max-width: 400px;
-    }
-}
-
-/* Links Page CSS */
 .links {
     background-color: #b1b1b1;
 }
@@ -325,39 +277,35 @@
     padding: 0 50px;
 }
 
-.links__content {
-    text-align: center;
-    font-family: 'Arial Black', sans-serif;
+/* LinkedIn icon */
+#linkedIn__img {
+    width: 75px; 
+    height: auto;
 }
 
-.links__content a {
-    color: #2857;
-    text-decoration: none;
-    font-size: 1.5rem;
+#linkedIn__img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
-    .links__container {
-        flex-direction: column;
-        padding: 0 20px;
-    }
+/* Github icon */
+#github__img {
+    width: 75px;
+    height: auto;
+}
 
-    .links__content a {
-        font-size: 1.2rem;
-    }
+#github__img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
 
-    .linkedIn__img--container,
-    .github__img--container,
-    .instagram__img--container {
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-    }
+/* Instagram Icon */
+#instagram__img {
+    width: 75px;
+    height: auto;
+}
 
-    #linkedIn__img,
-    #github__img,
-    #instagram__img {
-        width: 100%;
-        max-width: 150px;
-    }
+#instagram__img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
