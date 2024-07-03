@@ -168,11 +168,15 @@
 /* Main Page CSS */
 
 .main {
-    background-color: #b1b1b1;
+    background-image: url(images/background.jpg);
+    background-size: cover; 
+    background-position: center; 
 }
 
 .main__container {
-    
+    background-image: url(images/background.jpg);
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -185,6 +189,7 @@
     max-width: 1200px;
     padding: 0 50px;
 }
+
 
 
 .main__content h1 {
@@ -216,10 +221,15 @@
 
 /* Experience page*/
 .experience {
-    background-color: #b1b1b1;
+    background-image: url(images/background.jpg);
+    background-size: cover; 
+    background-position: center; 
 }
 
 .experience__container {
+    background-image: url(images/background.jpg);
+    background-size: cover; 
+    background-position: center; 
     display: grid;
     grid-template-columns: 0.65fr 1em;
     align-items: center;
@@ -267,7 +277,7 @@
     border-style: solid;
     border-color: #000000;
     padding: 10px;
-    background-image: linear-gradient(to top, #b1b1b1 0%, #cabeaf 100%);
+    background-image: linear-gradient(to top, #c0bdbd 0%, #ffffff 100%);
     border-radius: 10px;
     border-width: 5px;
 }
@@ -290,7 +300,7 @@
     border-style: solid;
     border-color: #000000;
     padding: 10px;
-    background-image: linear-gradient(to top, #b1b1b1 0%, #cabeaf 100%);
+    background-image: linear-gradient(to top, #c0bdbd 0%, #ffffff 100%);
     border-radius: 10px;
     border-width: 5px;
 }
@@ -302,7 +312,7 @@
     border-style: solid;
     border-color: #000000;
     padding: 10px;
-    background-image: linear-gradient(to top, #b1b1b1 0%, #cabeaf 100%);
+    background-image: linear-gradient(to top, #c0bdbd 0%, #ffffff 100%);
     border-radius: 10px;
     border-width: 5px;
 }
@@ -310,10 +320,15 @@
 /*Links Page*/
 
 .links {
-    background-color: #b1b1b1;
+    background-image: url(images/background.jpg);
+    background-size: cover; 
+    background-position: center; 
 }
 
 .links__container {
+    background-image: url(images/background.jpg);
+    background-size: cover; 
+    background-position: center; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,10 +376,15 @@
 }
 
 .projects {
-    background-color: #b1b1b1;
+    background-image: url(images/background.jpg);
+    background-size: cover; 
+    background-position: center; 
 }
 
 .projects__container {
+    background-image: url(images/background.jpg);
+    background-size: cover; 
+    background-position: center; 
     display: grid;
     grid-template-columns: 0.75fr 1em;
     align-items: center;
@@ -422,7 +442,7 @@
     border-style: solid;
     border-color: #000000;
     padding: 10px;
-    background-image: linear-gradient(to top, #b1b1b1 0%, #cabeaf 100%);
+    background-image: linear-gradient(to top, #c0bdbd 0%, #ffffff 100%);
     border-radius: 10px;
     border-width: 5px;
 }
@@ -434,7 +454,7 @@
     border-style: solid;
     border-color: #000000;
     padding: 10px;
-    background-image: linear-gradient(to top, #b1b1b1 0%, #cabeaf 100%);
+    background-image: linear-gradient(to top, #c0bdbd 0%, #ffffff 100%);
     border-radius: 10px;
     border-width: 5px;
 }
