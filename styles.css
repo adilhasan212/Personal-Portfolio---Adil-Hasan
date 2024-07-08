@@ -435,7 +435,7 @@
     -moz-text-fill-color: transparent;
 }
 
-.websites {
+.projects__border {
     position: relative;
     display: flex;
     flex-direction: column;
