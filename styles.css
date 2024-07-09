@@ -422,7 +422,7 @@
     -moz-text-fill-color: transparent;
 }
 
-.projects__content p1 {
+.projects__content li {
     color: black;
     line-height: 1.5;
     font-family: 'Arial Black', sans-serif; 
